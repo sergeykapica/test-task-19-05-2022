@@ -1,0 +1,348 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	margin: 0;
+}
+
+ul,
+ol {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+a:active {
+	color: inherit;
+	text-decoration: none;
+}
+
+input {
+	width: 100%;
+	height: 40px;
+	padding: 0 10px;
+	border: 0;
+	outline: 0;
+	font-size: 16px;
+	background: transparent;
+}
+
+button {
+	border: 0;
+	outline: 0;
+	background: transparent;
+}
+
+
+textarea {
+	width: 100%;
+	height: 300px;
+	padding: 10px;
+	border: 0;
+	outline: 0;
+	font-size: 16px;
+	background: transparent;
+	resize: none;
+}
+
+select {
+	width: 100%;
+	height: 40px;
+	border: 1px solid #ececec;
+	outline: 0;
+	font-size: 16px;
+	background: transparent;
+}
+
+div,
+ul,
+input {
+	-webkit-box-sizing: border-box;
+  	   -moz-box-sizing: border-box;
+  	        box-sizing: border-box;
+}
+
+.wrapper {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.login-form-env {
+	width: 50%;
+	padding: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+  	   -moz-transform: translate(-50%, -50%);
+  	    -ms-transform: translate(-50%, -50%);
+  	     -o-transform: translate(-50%, -50%);
+  	        transform: translate(-50%, -50%);
+}
+
+.login-form-env h3 {
+	margin-bottom: 20px;
+}
+
+.login-form-env .field-group {
+	margin-bottom: 20px;
+}
+
+.field-group {
+	display: -webkit-box;
+  	display: -webkit-flex;
+  	display: -moz-box;
+  	display: -ms-flexbox;
+  	display: flex;
+	-webkit-box-align: center;
+  	-webkit-align-items: center;
+  	   -moz-box-align: center;
+  	    -ms-flex-align: center;
+  	            -ms-grid-row-align: center;
+  	        align-items: center;
+	border: 1px solid #ececec;
+}
+
+.field-group:focus {
+	border-color: #000;
+}
+
+.field-group svg {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.btn-1 {
+	width: 200px;
+	height: 40px;
+	background: #b53c3c;
+	color: #fff;
+	cursor: pointer;
+	-webkit-transition: all .2s linear 0s;
+  	-o-transition: all .2s linear 0s;
+  	-moz-transition: all .2s linear 0s;
+  	transition: all .2s linear 0s;
+}
+
+.btn-1:hover {
+	background: #3f51b5;
+}
+
+.admin-area h2 {
+	margin-top: 20px;
+}
+
+.action-env {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.data-env {
+	font-size: 16px;
+}
+
+.data-env ul {
+	width: 100%;
+}
+
+.row {
+	display: -webkit-box;
+  	display: -webkit-flex;
+  	display: -moz-box;
+  	display: -ms-flexbox;
+  	display: flex;
+	margin-bottom: 10px;
+	font-weight: 100;
+	border-bottom: 1px solid #c0c0c0;
+    padding-bottom: 10px;
+}
+
+.row > div.title {
+	width: 40%;
+}
+
+.row > div.description {
+	width: 40%;
+}
+
+.row > div.parent_id {
+	width: 20%;
+	padding-right: 100px;
+	position: relative;
+}
+
+.row.header > div.parent_id {
+	padding-right: 0;
+}
+
+.row.header{
+	font-weight: 600;
+}
+
+.add-form-env h3 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.add-form-env .field-group {
+	margin-bottom: 20px;
+}
+
+.add-form-env form {
+	max-width: 400px;
+}
+
+.form-header {
+	display: -webkit-box;
+  	display: -webkit-flex;
+  	display: -moz-box;
+  	display: -ms-flexbox;
+  	display: flex;
+  	-webkit-box-pack: justify;
+  	-webkit-justify-content: space-between;
+  	   -moz-box-pack: justify;
+  	    -ms-flex-pack: justify;
+  	        justify-content: space-between;
+	-webkit-box-align: center;
+  	-webkit-align-items: center;
+  	   -moz-box-align: center;
+  	    -ms-flex-align: center;
+  	            -ms-grid-row-align: center;
+  	        align-items: center;
+}
+
+.link {
+	color: #000;
+	-webkit-transition: all .2s linear 0s;
+  	-o-transition: all .2s linear 0s;
+  	-moz-transition: all .2s linear 0s;
+  	transition: all .2s linear 0s;
+}
+
+
+.link:hover {
+	color: #b53c3c;
+}
+
+.form-response {
+	position: relative;
+	padding-left: 26px;
+	margin-top: 20px;
+}
+
+.form-response.success svg {
+	position: absolute;
+	top: 2px;
+	left: 0;
+	fill: #4caf50;
+}
+
+.form-response.success span {
+	color: #4caf50;
+	vertical-align: middle;
+}
+
+.form-response.failed svg {
+	position: absolute;
+	top: 2px;
+	left: 0;
+	fill: #f44336;
+}
+
+.form-response.failed span {
+	color: #f44336;
+	vertical-align: middle;
+}
+
+ul li {
+	margin-bottom: 20px;
+}
+
+ul .sublvl {
+	position: relative;
+	padding-left: 20px;
+}
+
+ul .sublvl:after {
+	content: '-';
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.data-env .actions {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 80px;
+	height: 100%;
+	display: -webkit-box;
+  	display: -webkit-flex;
+  	display: -moz-box;
+  	display: -ms-flexbox;
+  	display: flex;
+  	-webkit-box-pack: justify;
+  	-webkit-justify-content: space-between;
+  	   -moz-box-pack: justify;
+  	    -ms-flex-pack: justify;
+  	        justify-content: space-between;
+	-webkit-box-align: center;
+  	-webkit-align-items: center;
+  	   -moz-box-align: center;
+  	    -ms-flex-align: center;
+  	            -ms-grid-row-align: center;
+  	        align-items: center;
+	-webkit-box-pack: center;
+  	-webkit-justify-content: center;
+  	   -moz-box-pack: center;
+  	    -ms-flex-pack: center;
+  	        justify-content: center;
+}
+
+.data-env .actions svg {
+	fill: #b53c3c;
+	cursor: pointer;
+}
+
+.data-env .actions .edit-data {
+	margin-right: 10px;
+}
+
+.admin-header {
+	display: -webkit-box;
+  	display: -webkit-flex;
+  	display: -moz-box;
+  	display: -ms-flexbox;
+  	display: flex;
+  	-webkit-box-pack: justify;
+  	-webkit-justify-content: space-between;
+  	   -moz-box-pack: justify;
+  	    -ms-flex-pack: justify;
+  	        justify-content: space-between;
+	-webkit-box-align: center;
+  	-webkit-align-items: center;
+  	   -moz-box-align: center;
+  	    -ms-flex-align: center;
+  	            -ms-grid-row-align: center;
+  	        align-items: center;
+}
+
+.user-area h2 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
